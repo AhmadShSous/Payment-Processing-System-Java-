@@ -32,9 +32,11 @@ Each payment type calculates its payable amount differently and applies its own 
 
 
 ### 1️⃣ Payable.java (Interface)
+```java
 public interface Payable {
     boolean isAuthorized();
 }
+```
 ### 2️⃣ CustomerPayment.java (Abstract Class)
 // Abstract class for all payment types
 // Implements Comparable<CustomerPayment>
