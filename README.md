@@ -38,26 +38,36 @@ public interface Payable {
 }
 ```
 ### 2️⃣ CustomerPayment.java (Abstract Class)
+```
 // Abstract class for all payment types
 // Implements Comparable<CustomerPayment>
+```
 ### 3️⃣ Cash.java
+```
 // Extends CustomerPayment
 // Applies discount rate
+```
 ### 4️⃣ Check.java
+```
 // Extends CustomerPayment
 // Implements Payable
 // Types: CASHIER, CERTIFIED, PERSONAL
 // Authorization rules applied
+```
 ### 5️⃣ CreditCard.java
+```
 // Extends CustomerPayment
 // Implements Payable
 // Authorization based on expiry date
+```
 ### 6️⃣ Driver.java
+```
 // Entry point of program
 // Creates payment objects
 // Verifies authorization
 // Sorts payments
 // Prints payment info
+```
 ##  Program Execution Flow
 1. Create payment objects
 2. Authorize checks and credit cards
@@ -66,10 +76,11 @@ public interface Payable {
 5. Display payment information
 
  ## Sample Output (Conceptual)
-customerName=Rania, customerId=7777, amount=600.0 payment = 600.0
-customerName=Randa, customerId=9999, amount=170.0 payment = 190.0
-customerName=Ahmad, customerId=4444, amount=150.0 payment = 142.5
-
+```
+//customerName=Rania, customerId=7777, amount=600.0 payment = 600.0
+//customerName=Randa, customerId=9999, amount=170.0 payment = 190.0
+//customerName=Ahmad, customerId=4444, amount=150.0 payment = 142.5
+```
 
 ##  Key OOP Concepts Applied
 - Abstraction: CustomerPayment, Payable
