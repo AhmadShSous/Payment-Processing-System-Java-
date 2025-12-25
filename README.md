@@ -20,16 +20,6 @@ Each payment type calculates its payable amount differently and applies its own 
 
 ---
 
-##  Project Structure
-└── src/
-├── Payable.java
-├── CustomerPayment.java
-├── Cash.java
-├── Check.java
-├── CreditCard.java
-└── Driver.java
-
-
 
 ### 1️⃣ Payable.java (Interface)
 ```java
