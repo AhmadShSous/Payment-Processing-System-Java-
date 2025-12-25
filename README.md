@@ -32,7 +32,6 @@ Each payment type calculates its payable amount differently and applies its own 
 
 
 ### 1️⃣ Payable.java (Interface)
-```java
 public interface Payable {
     boolean isAuthorized();
 }
