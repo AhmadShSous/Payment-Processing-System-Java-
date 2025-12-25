@@ -77,9 +77,9 @@ public interface Payable {
 
  ## Sample Output (Conceptual)
 ```
-//customerName=Rania, customerId=7777, amount=600.0 payment = 600.0
-//customerName=Randa, customerId=9999, amount=170.0 payment = 190.0
-//customerName=Ahmad, customerId=4444, amount=150.0 payment = 142.5
+customerName=Rania, customerId=7777, amount=600.0 payment = 600.0
+customerName=Randa, customerId=9999, amount=170.0 payment = 190.0
+customerName=Ahmad, customerId=4444, amount=150.0 payment = 142.5
 ```
 
 ##  Key OOP Concepts Applied
